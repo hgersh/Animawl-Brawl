@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD55A67E18025A3900BD106A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD55A67D18025A3900BD106A /* Cocoa.framework */; };
+		CD55A68818025A3900BD106A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD55A68618025A3900BD106A /* InfoPlist.strings */; };
+		CD55A68A18025A3900BD106A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD55A68918025A3900BD106A /* main.m */; };
+		CD55A68E18025A3900BD106A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CD55A68C18025A3900BD106A /* Credits.rtf */; };
+		CD55A69118025A3900BD106A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD55A69018025A3900BD106A /* AppDelegate.m */; };
+		CD55A69418025A3900BD106A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD55A69218025A3900BD106A /* MainMenu.xib */; };
+		CD55A69618025A3900BD106A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD55A69518025A3900BD106A /* Images.xcassets */; };
+		CD55A69D18025A3900BD106A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD55A69C18025A3900BD106A /* XCTest.framework */; };
+		CD55A69E18025A3900BD106A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD55A67D18025A3900BD106A /* Cocoa.framework */; };
+		CD55A6A618025A3900BD106A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD55A6A418025A3900BD106A /* InfoPlist.strings */; };
+		CD55A6A818025A3900BD106A /* Animal_BrawlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD55A6A718025A3900BD106A /* Animal_BrawlTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD55A69F18025A3900BD106A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD55A67218025A3900BD106A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD55A67918025A3900BD106A;
+			remoteInfo = "Animal Brawl";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD55A67A18025A3900BD106A /* Animal Brawl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animal Brawl.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD55A67D18025A3900BD106A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CD55A68018025A3900BD106A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CD55A68118025A3900BD106A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CD55A68218025A3900BD106A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD55A68518025A3900BD106A /* Animal Brawl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animal Brawl-Info.plist"; sourceTree = "<group>"; };
+		CD55A68718025A3900BD106A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD55A68918025A3900BD106A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD55A68B18025A3900BD106A /* Animal Brawl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animal Brawl-Prefix.pch"; sourceTree = "<group>"; };
+		CD55A68D18025A3900BD106A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CD55A68F18025A3900BD106A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD55A69018025A3900BD106A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD55A69318025A3900BD106A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD55A69518025A3900BD106A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD55A69B18025A3900BD106A /* Animal BrawlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animal BrawlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD55A69C18025A3900BD106A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CD55A6A318025A3900BD106A /* Animal BrawlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animal BrawlTests-Info.plist"; sourceTree = "<group>"; };
+		CD55A6A518025A3900BD106A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD55A6A718025A3900BD106A /* Animal_BrawlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal_BrawlTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD55A67718025A3900BD106A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD55A67E18025A3900BD106A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD55A69818025A3900BD106A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD55A69E18025A3900BD106A /* Cocoa.framework in Frameworks */,
+				CD55A69D18025A3900BD106A /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD55A67118025A3900BD106A = {
+			isa = PBXGroup;
+			children = (
+				CD55A68318025A3900BD106A /* Animal Brawl */,
+				CD55A6A118025A3900BD106A /* Animal BrawlTests */,
+				CD55A67C18025A3900BD106A /* Frameworks */,
+				CD55A67B18025A3900BD106A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD55A67B18025A3900BD106A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD55A67A18025A3900BD106A /* Animal Brawl.app */,
+				CD55A69B18025A3900BD106A /* Animal BrawlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD55A67C18025A3900BD106A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD55A67D18025A3900BD106A /* Cocoa.framework */,
+				CD55A69C18025A3900BD106A /* XCTest.framework */,
+				CD55A67F18025A3900BD106A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD55A67F18025A3900BD106A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD55A68018025A3900BD106A /* AppKit.framework */,
+				CD55A68118025A3900BD106A /* CoreData.framework */,
+				CD55A68218025A3900BD106A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CD55A68318025A3900BD106A /* Animal Brawl */ = {
+			isa = PBXGroup;
+			children = (
+				CD55A68F18025A3900BD106A /* AppDelegate.h */,
+				CD55A69018025A3900BD106A /* AppDelegate.m */,
+				CD55A69218025A3900BD106A /* MainMenu.xib */,
+				CD55A69518025A3900BD106A /* Images.xcassets */,
+				CD55A68418025A3900BD106A /* Supporting Files */,
+			);
+			path = "Animal Brawl";
+			sourceTree = "<group>";
+		};
+		CD55A68418025A3900BD106A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD55A68518025A3900BD106A /* Animal Brawl-Info.plist */,
+				CD55A68618025A3900BD106A /* InfoPlist.strings */,
+				CD55A68918025A3900BD106A /* main.m */,
+				CD55A68B18025A3900BD106A /* Animal Brawl-Prefix.pch */,
+				CD55A68C18025A3900BD106A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD55A6A118025A3900BD106A /* Animal BrawlTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD55A6A718025A3900BD106A /* Animal_BrawlTests.m */,
+				CD55A6A218025A3900BD106A /* Supporting Files */,
+			);
+			path = "Animal BrawlTests";
+			sourceTree = "<group>";
+		};
+		CD55A6A218025A3900BD106A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD55A6A318025A3900BD106A /* Animal BrawlTests-Info.plist */,
+				CD55A6A418025A3900BD106A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD55A67918025A3900BD106A /* Animal Brawl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD55A6AB18025A3900BD106A /* Build configuration list for PBXNativeTarget "Animal Brawl" */;
+			buildPhases = (
+				CD55A67618025A3900BD106A /* Sources */,
+				CD55A67718025A3900BD106A /* Frameworks */,
+				CD55A67818025A3900BD106A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Animal Brawl";
+			productName = "Animal Brawl";
+			productReference = CD55A67A18025A3900BD106A /* Animal Brawl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD55A69A18025A3900BD106A /* Animal BrawlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD55A6AE18025A3900BD106A /* Build configuration list for PBXNativeTarget "Animal BrawlTests" */;
+			buildPhases = (
+				CD55A69718025A3900BD106A /* Sources */,
+				CD55A69818025A3900BD106A /* Frameworks */,
+				CD55A69918025A3900BD106A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD55A6A018025A3900BD106A /* PBXTargetDependency */,
+			);
+			name = "Animal BrawlTests";
+			productName = "Animal BrawlTests";
+			productReference = CD55A69B18025A3900BD106A /* Animal BrawlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD55A67218025A3900BD106A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Henry Gersh";
+				TargetAttributes = {
+					CD55A69A18025A3900BD106A = {
+						TestTargetID = CD55A67918025A3900BD106A;
+					};
+				};
+			};
+			buildConfigurationList = CD55A67518025A3900BD106A /* Build configuration list for PBXProject "Animal Brawl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD55A67118025A3900BD106A;
+			productRefGroup = CD55A67B18025A3900BD106A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD55A67918025A3900BD106A /* Animal Brawl */,
+				CD55A69A18025A3900BD106A /* Animal BrawlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD55A67818025A3900BD106A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD55A68818025A3900BD106A /* InfoPlist.strings in Resources */,
+				CD55A69618025A3900BD106A /* Images.xcassets in Resources */,
+				CD55A68E18025A3900BD106A /* Credits.rtf in Resources */,
+				CD55A69418025A3900BD106A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD55A69918025A3900BD106A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD55A6A618025A3900BD106A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD55A67618025A3900BD106A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD55A69118025A3900BD106A /* AppDelegate.m in Sources */,
+				CD55A68A18025A3900BD106A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD55A69718025A3900BD106A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD55A6A818025A3900BD106A /* Animal_BrawlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD55A6A018025A3900BD106A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD55A67918025A3900BD106A /* Animal Brawl */;
+			targetProxy = CD55A69F18025A3900BD106A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD55A68618025A3900BD106A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD55A68718025A3900BD106A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD55A68C18025A3900BD106A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD55A68D18025A3900BD106A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CD55A69218025A3900BD106A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD55A69318025A3900BD106A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CD55A6A418025A3900BD106A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD55A6A518025A3900BD106A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD55A6A918025A3900BD106A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD55A6AA18025A3900BD106A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD55A6AC18025A3900BD106A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animal Brawl/Animal Brawl-Prefix.pch";
+				INFOPLIST_FILE = "Animal Brawl/Animal Brawl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD55A6AD18025A3900BD106A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animal Brawl/Animal Brawl-Prefix.pch";
+				INFOPLIST_FILE = "Animal Brawl/Animal Brawl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD55A6AF18025A3900BD106A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Animal Brawl.app/Contents/MacOS/Animal Brawl";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animal Brawl/Animal Brawl-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Animal BrawlTests/Animal BrawlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CD55A6B018025A3900BD106A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Animal Brawl.app/Contents/MacOS/Animal Brawl";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animal Brawl/Animal Brawl-Prefix.pch";
+				INFOPLIST_FILE = "Animal BrawlTests/Animal BrawlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD55A67518025A3900BD106A /* Build configuration list for PBXProject "Animal Brawl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD55A6A918025A3900BD106A /* Debug */,
+				CD55A6AA18025A3900BD106A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD55A6AB18025A3900BD106A /* Build configuration list for PBXNativeTarget "Animal Brawl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD55A6AC18025A3900BD106A /* Debug */,
+				CD55A6AD18025A3900BD106A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD55A6AE18025A3900BD106A /* Build configuration list for PBXNativeTarget "Animal BrawlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD55A6AF18025A3900BD106A /* Debug */,
+				CD55A6B018025A3900BD106A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD55A67218025A3900BD106A /* Project object */;
+}
