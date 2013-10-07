@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9F1C06EB-0CE7-49CA-BE51-F1AFDEB5B072</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Animal Brawl</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BFE35AF7-8174-42E4-B7B0-1992C6518C5C</key>
+		<string>https://github.com/hgersh/Animawl-Brawl.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Animawl-Brawl/Animal Brawl/Animal Brawl.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BFE35AF7-8174-42E4-B7B0-1992C6518C5C</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hgersh/Animawl-Brawl.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BFE35AF7-8174-42E4-B7B0-1992C6518C5C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BFE35AF7-8174-42E4-B7B0-1992C6518C5C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Animawl-Brawl</string>
+		</dict>
+	</array>
+</dict>
+</plist>
